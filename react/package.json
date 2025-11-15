@@ -1,0 +1,52 @@
+{
+  "name": "scramjet-demo-react",
+  "version": "2.0.0",
+  "description": "The demo application for Scramjet, a high-performance web proxy - React version",
+  "type": "module",
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"vite\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "npm run build && node server.js",
+    "server:dev": "node server.js",
+    "start": "npm run server",
+    "format": "prettier --config .prettierrc.js --write .",
+    "lint": "eslint ./src/",
+    "lint:fix": "eslint ./src/ --fix"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "Mercury Workshop",
+  "license": "GNU AFFERO",
+  "dependencies": {
+    "@fastify/static": "^8.2.0",
+    "@mercuryworkshop/bare-mux": "^2.1.7",
+    "@mercuryworkshop/epoxy-transport": "^2.1.28",
+    "@mercuryworkshop/scramjet": "https://github.com/MercuryWorkshop/scramjet/releases/download/latest/mercuryworkshop-scramjet-2.0.0-alpha.tgz",
+    "@mercuryworkshop/wisp-js": "^0.3.3",
+    "fastify": "^5.4.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.1.1",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.1.0",
+    "concurrently": "^8.2.2",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "prettier": "^3.3.3",
+    "vite": "^7.2.2"
+  },
+  "packageManager": "pnpm@9.12.2"
+}

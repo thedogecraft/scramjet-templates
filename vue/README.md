@@ -1,18 +1,10 @@
 <p align="center"><img src="https://raw.githubusercontent.com/MercuryWorkshop/scramjet/main/assets/scramjet.png" height="200"></p>
 
-<h1 align="center">Scramjet Templates</h1>
+<h1 align="center">Scramjet Vue Demo</h1>
 
 <a href="https://github.com/MercuryWorkshop/Scramjet-App">looking for original repo?</a>
 
-This repo contains alternative ways to use <a href="https://github.com/MercuryWorkshop/scramjet">Scramjet</a> such as React and Vue.
-
-If you plan on using AI or vibe coding, go with React. If not, choose Vue. it’s better suited for this and more lightweight. Most AIs aren’t well-trained on Vue.
-
-# Known issues
-
-- Proxy does not work in dev mode.
-
-# OG Readme
+The demo implementation of <a href="https://github.com/MercuryWorkshop/scramjet">Scramjet</a> using vue, the most advanced web proxy.
 
 <a href="https://github.com/MercuryWorkshop/scramjet">Scramjet</a> is an experimental interception based web proxy designed with security, developer friendliness, and performance in mind. This project is made to evade internet censorship and bypass arbitrary web browser restrictions.
 
